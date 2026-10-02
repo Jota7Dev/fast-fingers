@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://ddmhke61opwwh"]
+
+[ext_resource type="Texture2D" uid="uid://cxle886qohljc" path="res://icon.svg" id="1_1cwbg"]
+[ext_resource type="Script" uid="uid://cj3dcidl30koy" path="res://Scripts/asteroides/asteroide.gd" id="1_sllb6"]
+[ext_resource type="FontFile" uid="uid://bte1ipoi2cwcr" path="res://Assets/Fonts/Pix32.ttf" id="2_1674l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f6txj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f6txj"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0, 0, 0, 0.8392157)
+
+[node name="Asteroide" type="Area2D" unique_id=1358454194]
+script = ExtResource("1_sllb6")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2031188760]
+texture = ExtResource("1_1cwbg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1169523938]
+shape = SubResource("RectangleShape2D_f6txj")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1816999887]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -28.0
+offset_top = -20.0
+offset_right = 28.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_f6txj")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="PanelContainer" unique_id=1755088350]
+layout_mode = 2
+theme_override_fonts/normal_font = ExtResource("2_1674l")
+theme_override_fonts/bold_font = ExtResource("2_1674l")
+theme_override_fonts/bold_italics_font = ExtResource("2_1674l")
+theme_override_fonts/italics_font = ExtResource("2_1674l")
+theme_override_fonts/mono_font = ExtResource("2_1674l")
+text = "PALABRA"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=87929759]
+zoom = Vector2(5, 5)

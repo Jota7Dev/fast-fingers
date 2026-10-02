@@ -1,0 +1,609 @@
+[gd_scene format=3 uid="uid://dmjyv2x1a5pyl"]
+
+[ext_resource type="Script" uid="uid://lmfxkqk0esef" path="res://Scripts/ui/teclados/teclado_ui.gd" id="1_fn76y"]
+[ext_resource type="Texture2D" uid="uid://74ip73amnl1d" path="res://Assets/Sprites/ui/teclados/teclado_default/teclado-fondo.png" id="2_8jkvy"]
+[ext_resource type="Texture2D" uid="uid://d1qo1fg8rv78r" path="res://Assets/Sprites/ui/teclados/teclado_default/q_key1.png" id="3_2vj84"]
+[ext_resource type="Texture2D" uid="uid://cii7doh5md5r4" path="res://Assets/Sprites/ui/teclados/teclado_default/q_key2.png" id="4_0h0sh"]
+[ext_resource type="Texture2D" uid="uid://bg6ct814lps2y" path="res://Assets/Sprites/ui/teclados/teclado_default/w_key1.png" id="5_vyfet"]
+[ext_resource type="Texture2D" uid="uid://csnlalrper8my" path="res://Assets/Sprites/ui/teclados/teclado_default/w_key2.png" id="6_bfau3"]
+[ext_resource type="Texture2D" uid="uid://2epa3r5esjof" path="res://Assets/Sprites/ui/teclados/teclado_default/e_key1.png" id="7_7qlt2"]
+[ext_resource type="Texture2D" uid="uid://b881fnyqe5w2v" path="res://Assets/Sprites/ui/teclados/teclado_default/e_key2.png" id="8_235cf"]
+[ext_resource type="Texture2D" uid="uid://buyy1ophv3m34" path="res://Assets/Sprites/ui/teclados/teclado_default/r_key1.png" id="9_0fd5h"]
+[ext_resource type="Texture2D" uid="uid://co3cho0kt427n" path="res://Assets/Sprites/ui/teclados/teclado_default/r_key2.png" id="10_gnk7q"]
+[ext_resource type="Texture2D" uid="uid://0dogo4lva0oi" path="res://Assets/Sprites/ui/teclados/teclado_default/t_key1.png" id="11_mkpt8"]
+[ext_resource type="Texture2D" uid="uid://f0ionfugr8sm" path="res://Assets/Sprites/ui/teclados/teclado_default/t_key2.png" id="12_83wxg"]
+[ext_resource type="Texture2D" uid="uid://2g4rw1st20yu" path="res://Assets/Sprites/ui/teclados/teclado_default/y_key1.png" id="13_4bwp5"]
+[ext_resource type="Texture2D" uid="uid://ctopnkfj7hj3j" path="res://Assets/Sprites/ui/teclados/teclado_default/y_key2.png" id="14_lxu8x"]
+[ext_resource type="Texture2D" uid="uid://bm23nv7bk62hq" path="res://Assets/Sprites/ui/teclados/teclado_default/u_key1.png" id="15_atgn8"]
+[ext_resource type="Texture2D" uid="uid://ddm21x4m0d5po" path="res://Assets/Sprites/ui/teclados/teclado_default/u_key2.png" id="16_vuyhh"]
+[ext_resource type="Texture2D" uid="uid://ddtc6ikdun6on" path="res://Assets/Sprites/ui/teclados/teclado_default/i_key1.png" id="17_vw8hr"]
+[ext_resource type="Texture2D" uid="uid://bw8r6iujy0c8" path="res://Assets/Sprites/ui/teclados/teclado_default/i_key2.png" id="18_m2myp"]
+[ext_resource type="Texture2D" uid="uid://dpq5tswqpvx0x" path="res://Assets/Sprites/ui/teclados/teclado_default/o_key1.png" id="19_nbysc"]
+[ext_resource type="Texture2D" uid="uid://gon5846hrq78" path="res://Assets/Sprites/ui/teclados/teclado_default/o_key2.png" id="20_2jw8g"]
+[ext_resource type="Texture2D" uid="uid://chtnr435n7hyd" path="res://Assets/Sprites/ui/teclados/teclado_default/p_key1.png" id="21_34ten"]
+[ext_resource type="Texture2D" uid="uid://bywfpwaedyf5g" path="res://Assets/Sprites/ui/teclados/teclado_default/p_key2.png" id="22_hu5ys"]
+[ext_resource type="Texture2D" uid="uid://x6b2ybverx4y" path="res://Assets/Sprites/ui/teclados/teclado_default/a_key1.png" id="23_sgcu2"]
+[ext_resource type="Texture2D" uid="uid://ceq3ovtd4722s" path="res://Assets/Sprites/ui/teclados/teclado_default/a_key2.png" id="24_8mbnm"]
+[ext_resource type="Texture2D" uid="uid://cj2il3uo7k3sn" path="res://Assets/Sprites/ui/teclados/teclado_default/s_key1.png" id="25_edila"]
+[ext_resource type="Texture2D" uid="uid://dp0dtf6oe1ygm" path="res://Assets/Sprites/ui/teclados/teclado_default/s_key2.png" id="26_jexxn"]
+[ext_resource type="Texture2D" uid="uid://crq8xp2ymsokj" path="res://Assets/Sprites/ui/teclados/teclado_default/d_key1.png" id="27_cbqmi"]
+[ext_resource type="Texture2D" uid="uid://080l2lhrj625" path="res://Assets/Sprites/ui/teclados/teclado_default/d_key2.png" id="28_0cqp0"]
+[ext_resource type="Texture2D" uid="uid://b70mee4il5fac" path="res://Assets/Sprites/ui/teclados/teclado_default/z_key1.png" id="29_5j8m4"]
+[ext_resource type="Texture2D" uid="uid://d0fe8mj1i7s5l" path="res://Assets/Sprites/ui/teclados/teclado_default/z_key2.png" id="30_4lhkf"]
+[ext_resource type="Texture2D" uid="uid://bju3sc6mp10tj" path="res://Assets/Sprites/ui/teclados/teclado_default/x_key1.png" id="31_sqcij"]
+[ext_resource type="Texture2D" uid="uid://bipweb0m52h36" path="res://Assets/Sprites/ui/teclados/teclado_default/x_key2.png" id="32_020ax"]
+[ext_resource type="Texture2D" uid="uid://dcy3x2qrix1j6" path="res://Assets/Sprites/ui/teclados/teclado_default/c_key1.png" id="33_pyag6"]
+[ext_resource type="Texture2D" uid="uid://cruuii8uhryif" path="res://Assets/Sprites/ui/teclados/teclado_default/c_key2.png" id="34_pydp8"]
+[ext_resource type="Texture2D" uid="uid://bkj1niqw63b1i" path="res://Assets/Sprites/ui/teclados/teclado_default/v_key1.png" id="35_kgk30"]
+[ext_resource type="Texture2D" uid="uid://cg6ly2a6ivb36" path="res://Assets/Sprites/ui/teclados/teclado_default/v_key2.png" id="36_gr5h8"]
+[ext_resource type="Texture2D" uid="uid://b05qgj1rjcfhc" path="res://Assets/Sprites/ui/teclados/teclado_default/b_key1.png" id="37_u1vlj"]
+[ext_resource type="Texture2D" uid="uid://bsutxrqnw64nb" path="res://Assets/Sprites/ui/teclados/teclado_default/b_key2.png" id="38_ekho8"]
+[ext_resource type="Texture2D" uid="uid://cbt4joinudh8o" path="res://Assets/Sprites/ui/teclados/teclado_default/n_key1.png" id="39_xsqr2"]
+[ext_resource type="Texture2D" uid="uid://dlhpflgsvl2fe" path="res://Assets/Sprites/ui/teclados/teclado_default/n_key2.png" id="40_8y8f7"]
+[ext_resource type="Texture2D" uid="uid://roq0naa8a35d" path="res://Assets/Sprites/ui/teclados/teclado_default/m_key1.png" id="41_q024h"]
+[ext_resource type="Texture2D" uid="uid://1fwki4jhkuwn" path="res://Assets/Sprites/ui/teclados/teclado_default/m_key2.png" id="42_l0q2k"]
+[ext_resource type="Texture2D" uid="uid://6ha21o87mhnx" path="res://Assets/Sprites/ui/teclados/teclado_default/spacebar1.png" id="43_i2yym"]
+[ext_resource type="Texture2D" uid="uid://8yrscvub1c36" path="res://Assets/Sprites/ui/teclados/teclado_default/spacebar2.png" id="44_gwl3r"]
+[ext_resource type="Texture2D" uid="uid://c1s651wwkc0ub" path="res://Assets/Sprites/ui/teclados/teclado_default/f_key1.png" id="45_huyms"]
+[ext_resource type="Texture2D" uid="uid://djq0ad7kgwnsy" path="res://Assets/Sprites/ui/teclados/teclado_default/f_key2.png" id="46_1tc30"]
+[ext_resource type="Texture2D" uid="uid://dgery0fmd2gtp" path="res://Assets/Sprites/ui/teclados/teclado_default/g_key1.png" id="47_ihk6n"]
+[ext_resource type="Texture2D" uid="uid://cryq7soqbfdxw" path="res://Assets/Sprites/ui/teclados/teclado_default/g_key2.png" id="48_6mbxx"]
+[ext_resource type="Texture2D" uid="uid://dkpeu6md1ioil" path="res://Assets/Sprites/ui/teclados/teclado_default/h_key1.png" id="49_ommik"]
+[ext_resource type="Texture2D" uid="uid://m870accy2udt" path="res://Assets/Sprites/ui/teclados/teclado_default/h_key2.png" id="50_1uw3v"]
+[ext_resource type="Texture2D" uid="uid://cp6ogct4vkhnn" path="res://Assets/Sprites/ui/teclados/teclado_default/j_key1.png" id="51_qtn74"]
+[ext_resource type="Texture2D" uid="uid://dby5e2h36a3lb" path="res://Assets/Sprites/ui/teclados/teclado_default/j_key2.png" id="52_1rq87"]
+[ext_resource type="Texture2D" uid="uid://bioy0wcmlxlkl" path="res://Assets/Sprites/ui/teclados/teclado_default/k_key1.png" id="53_75m1x"]
+[ext_resource type="Texture2D" uid="uid://ciurt3ug47xka" path="res://Assets/Sprites/ui/teclados/teclado_default/k_key2.png" id="54_gv00x"]
+[ext_resource type="Texture2D" uid="uid://bla71hjwf54a0" path="res://Assets/Sprites/ui/teclados/teclado_default/l_key1.png" id="55_mh2n4"]
+[ext_resource type="Texture2D" uid="uid://peh8irfyn6uy" path="res://Assets/Sprites/ui/teclados/teclado_default/l_key2.png" id="56_e6vyk"]
+[ext_resource type="Texture2D" uid="uid://c0al543i7cbop" path="res://Assets/Sprites/ui/teclados/teclado_default/ñ_key1.png" id="57_bvyj7"]
+[ext_resource type="Texture2D" uid="uid://b4v4jlqnrrkx4" path="res://Assets/Sprites/ui/teclados/teclado_default/ñ_key2.png" id="58_ojr68"]
+[ext_resource type="Texture2D" uid="uid://bevycr42wlmmr" path="res://Assets/Sprites/ui/teclados/teclado_default/shift_key1.png" id="59_q2qhg"]
+[ext_resource type="Texture2D" uid="uid://dmuybakkqge6v" path="res://Assets/Sprites/ui/teclados/teclado_default/shift_key2.png" id="60_tdoko"]
+[ext_resource type="Texture2D" uid="uid://dqt7dlo4qt5vb" path="res://Assets/Sprites/ui/teclados/teclado_default/backspace1.png" id="61_po8c0"]
+[ext_resource type="Texture2D" uid="uid://ddposfqbkv512" path="res://Assets/Sprites/ui/teclados/teclado_default/backspace2.png" id="62_dsnxr"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_kcfph"]
+device = -1
+keycode = 81
+unicode = 113
+
+[sub_resource type="Shortcut" id="Shortcut_kcfph"]
+events = [SubResource("InputEventKey_kcfph")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_74lb8"]
+device = -1
+keycode = 87
+unicode = 119
+
+[sub_resource type="Shortcut" id="Shortcut_yey7s"]
+events = [SubResource("InputEventKey_74lb8")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_yey7s"]
+device = -1
+keycode = 69
+unicode = 101
+
+[sub_resource type="Shortcut" id="Shortcut_xglwc"]
+events = [SubResource("InputEventKey_yey7s")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_iuaem"]
+device = -1
+keycode = 82
+unicode = 114
+
+[sub_resource type="Shortcut" id="Shortcut_32med"]
+events = [SubResource("InputEventKey_iuaem")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_5t132"]
+device = -1
+keycode = 84
+unicode = 116
+
+[sub_resource type="Shortcut" id="Shortcut_7acwk"]
+events = [SubResource("InputEventKey_5t132")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_xglwc"]
+device = -1
+keycode = 89
+unicode = 121
+
+[sub_resource type="Shortcut" id="Shortcut_4i2kw"]
+events = [SubResource("InputEventKey_xglwc")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_islc8"]
+device = -1
+keycode = 85
+unicode = 117
+
+[sub_resource type="Shortcut" id="Shortcut_w6l1p"]
+events = [SubResource("InputEventKey_islc8")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_32med"]
+device = -1
+keycode = 73
+unicode = 105
+
+[sub_resource type="Shortcut" id="Shortcut_ncqet"]
+events = [SubResource("InputEventKey_32med")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_2o0fm"]
+device = -1
+keycode = 79
+unicode = 111
+
+[sub_resource type="Shortcut" id="Shortcut_sa24b"]
+events = [SubResource("InputEventKey_2o0fm")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_7acwk"]
+device = -1
+keycode = 80
+unicode = 112
+
+[sub_resource type="Shortcut" id="Shortcut_hegj6"]
+events = [SubResource("InputEventKey_7acwk")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_aypx4"]
+device = -1
+keycode = 65
+unicode = 97
+
+[sub_resource type="Shortcut" id="Shortcut_khvmc"]
+events = [SubResource("InputEventKey_aypx4")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_4i2kw"]
+device = -1
+keycode = 83
+unicode = 115
+
+[sub_resource type="Shortcut" id="Shortcut_l4sg0"]
+events = [SubResource("InputEventKey_4i2kw")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_s47wp"]
+device = -1
+keycode = 68
+unicode = 100
+
+[sub_resource type="Shortcut" id="Shortcut_sw1jb"]
+events = [SubResource("InputEventKey_s47wp")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_w6l1p"]
+device = -1
+keycode = 90
+unicode = 122
+
+[sub_resource type="Shortcut" id="Shortcut_dli7o"]
+events = [SubResource("InputEventKey_w6l1p")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_m736k"]
+device = -1
+keycode = 88
+unicode = 120
+
+[sub_resource type="Shortcut" id="Shortcut_kx8td"]
+events = [SubResource("InputEventKey_m736k")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_ncqet"]
+device = -1
+keycode = 67
+unicode = 99
+
+[sub_resource type="Shortcut" id="Shortcut_g66pd"]
+events = [SubResource("InputEventKey_ncqet")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_43m23"]
+device = -1
+keycode = 86
+unicode = 118
+
+[sub_resource type="Shortcut" id="Shortcut_ab677"]
+events = [SubResource("InputEventKey_43m23")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_sa24b"]
+device = -1
+keycode = 66
+unicode = 98
+
+[sub_resource type="Shortcut" id="Shortcut_hrb2u"]
+events = [SubResource("InputEventKey_sa24b")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_qtdes"]
+device = -1
+keycode = 78
+unicode = 110
+
+[sub_resource type="Shortcut" id="Shortcut_ejc5y"]
+events = [SubResource("InputEventKey_qtdes")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_hegj6"]
+device = -1
+keycode = 77
+unicode = 109
+
+[sub_resource type="Shortcut" id="Shortcut_7l3b5"]
+events = [SubResource("InputEventKey_hegj6")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_1v1bq"]
+device = -1
+keycode = 32
+unicode = 32
+
+[sub_resource type="Shortcut" id="Shortcut_7517w"]
+events = [SubResource("InputEventKey_1v1bq")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_khvmc"]
+device = -1
+keycode = 70
+unicode = 102
+
+[sub_resource type="Shortcut" id="Shortcut_m736k"]
+events = [SubResource("InputEventKey_khvmc")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_2p6kp"]
+device = -1
+keycode = 71
+unicode = 103
+
+[sub_resource type="Shortcut" id="Shortcut_43m23"]
+events = [SubResource("InputEventKey_2p6kp")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_l4sg0"]
+device = -1
+keycode = 72
+unicode = 104
+
+[sub_resource type="Shortcut" id="Shortcut_qtdes"]
+events = [SubResource("InputEventKey_l4sg0")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_ngai3"]
+device = -1
+keycode = 74
+unicode = 106
+
+[sub_resource type="Shortcut" id="Shortcut_1v1bq"]
+events = [SubResource("InputEventKey_ngai3")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_sw1jb"]
+device = -1
+keycode = 75
+unicode = 107
+
+[sub_resource type="Shortcut" id="Shortcut_2p6kp"]
+events = [SubResource("InputEventKey_sw1jb")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_y72k0"]
+device = -1
+keycode = 76
+unicode = 108
+
+[sub_resource type="Shortcut" id="Shortcut_ngai3"]
+events = [SubResource("InputEventKey_y72k0")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_j1smh"]
+device = -1
+keycode = 59
+unicode = 241
+
+[sub_resource type="Shortcut" id="Shortcut_y72k0"]
+events = [SubResource("InputEventKey_j1smh")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_hcqln"]
+device = -1
+keycode = 4194325
+
+[sub_resource type="InputEventKey" id="InputEventKey_ql5u2"]
+device = -1
+keycode = 4194325
+
+[sub_resource type="Shortcut" id="Shortcut_hcqln"]
+events = [SubResource("InputEventKey_hcqln"), SubResource("InputEventKey_ql5u2")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_rccte"]
+device = -1
+keycode = 4194308
+
+[sub_resource type="Shortcut" id="Shortcut_c8d7r"]
+events = [SubResource("InputEventKey_rccte")]
+
+[node name="TecladoUI" type="Control" unique_id=490153416]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fn76y")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1830006935]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_8jkvy")
+
+[node name="q_key" type="TextureButton" parent="." unique_id=939718679]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+shortcut = SubResource("Shortcut_kcfph")
+texture_normal = ExtResource("3_2vj84")
+texture_pressed = ExtResource("4_0h0sh")
+
+[node name="w_key" type="TextureButton" parent="." unique_id=275361875]
+layout_mode = 0
+offset_left = 64.0
+offset_right = 128.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_yey7s")
+texture_normal = ExtResource("5_vyfet")
+texture_pressed = ExtResource("6_bfau3")
+
+[node name="e_key" type="TextureButton" parent="." unique_id=982001326]
+layout_mode = 0
+offset_left = 128.0
+offset_right = 192.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_xglwc")
+texture_normal = ExtResource("7_7qlt2")
+texture_pressed = ExtResource("8_235cf")
+
+[node name="r_key" type="TextureButton" parent="." unique_id=252852582]
+layout_mode = 0
+offset_left = 192.0
+offset_right = 256.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_32med")
+texture_normal = ExtResource("9_0fd5h")
+texture_pressed = ExtResource("10_gnk7q")
+
+[node name="t_key" type="TextureButton" parent="." unique_id=574394077]
+layout_mode = 0
+offset_left = 256.0
+offset_right = 320.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_7acwk")
+texture_normal = ExtResource("11_mkpt8")
+texture_pressed = ExtResource("12_83wxg")
+
+[node name="y_key" type="TextureButton" parent="." unique_id=1908501896]
+layout_mode = 0
+offset_left = 320.0
+offset_right = 384.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_4i2kw")
+texture_normal = ExtResource("13_4bwp5")
+texture_pressed = ExtResource("14_lxu8x")
+
+[node name="u_key" type="TextureButton" parent="." unique_id=1800940558]
+layout_mode = 0
+offset_left = 384.0
+offset_right = 448.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_w6l1p")
+texture_normal = ExtResource("15_atgn8")
+texture_pressed = ExtResource("16_vuyhh")
+
+[node name="i_key" type="TextureButton" parent="." unique_id=158063993]
+layout_mode = 0
+offset_left = 448.0
+offset_right = 512.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_ncqet")
+texture_normal = ExtResource("17_vw8hr")
+texture_pressed = ExtResource("18_m2myp")
+
+[node name="o_key" type="TextureButton" parent="." unique_id=2144713630]
+layout_mode = 0
+offset_left = 512.0
+offset_right = 576.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_sa24b")
+texture_normal = ExtResource("19_nbysc")
+texture_pressed = ExtResource("20_2jw8g")
+
+[node name="p_key" type="TextureButton" parent="." unique_id=468731317]
+layout_mode = 0
+offset_left = 576.0
+offset_right = 640.0
+offset_bottom = 80.0
+shortcut = SubResource("Shortcut_hegj6")
+texture_normal = ExtResource("21_34ten")
+texture_pressed = ExtResource("22_hu5ys")
+
+[node name="a_key" type="TextureButton" parent="." unique_id=1624934971]
+layout_mode = 0
+offset_top = 80.0
+offset_right = 64.0
+offset_bottom = 160.0
+shortcut = SubResource("Shortcut_khvmc")
+texture_normal = ExtResource("23_sgcu2")
+texture_pressed = ExtResource("24_8mbnm")
+
+[node name="s_key" type="TextureButton" parent="." unique_id=1616003967]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 80.0
+offset_right = 128.0
+offset_bottom = 160.0
+shortcut = SubResource("Shortcut_l4sg0")
+texture_normal = ExtResource("25_edila")
+texture_pressed = ExtResource("26_jexxn")
+
+[node name="d_key" type="TextureButton" parent="." unique_id=807831071]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 80.0
+offset_right = 192.0
+offset_bottom = 160.0
+shortcut = SubResource("Shortcut_sw1jb")
+texture_normal = ExtResource("27_cbqmi")
+texture_pressed = ExtResource("28_0cqp0")
+
+[node name="z_key" type="TextureButton" parent="." unique_id=568802881]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 160.0
+offset_right = 160.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_dli7o")
+texture_normal = ExtResource("29_5j8m4")
+texture_pressed = ExtResource("30_4lhkf")
+
+[node name="x_key" type="TextureButton" parent="." unique_id=1729460767]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 160.0
+offset_right = 224.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_kx8td")
+texture_normal = ExtResource("31_sqcij")
+texture_pressed = ExtResource("32_020ax")
+
+[node name="c_key" type="TextureButton" parent="." unique_id=1747142426]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 160.0
+offset_right = 288.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_g66pd")
+shortcut_in_tooltip = false
+texture_normal = ExtResource("33_pyag6")
+texture_pressed = ExtResource("34_pydp8")
+
+[node name="v_key" type="TextureButton" parent="." unique_id=1359218150]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 160.0
+offset_right = 352.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_ab677")
+texture_normal = ExtResource("35_kgk30")
+texture_pressed = ExtResource("36_gr5h8")
+
+[node name="b_key" type="TextureButton" parent="." unique_id=1945045862]
+layout_mode = 0
+offset_left = 352.0
+offset_top = 160.0
+offset_right = 416.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_hrb2u")
+texture_normal = ExtResource("37_u1vlj")
+texture_pressed = ExtResource("38_ekho8")
+
+[node name="n_key" type="TextureButton" parent="." unique_id=362504662]
+layout_mode = 0
+offset_left = 416.0
+offset_top = 160.0
+offset_right = 480.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_ejc5y")
+texture_normal = ExtResource("39_xsqr2")
+texture_pressed = ExtResource("40_8y8f7")
+
+[node name="m_key" type="TextureButton" parent="." unique_id=1572371684]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 160.0
+offset_right = 544.0
+offset_bottom = 240.0
+shortcut = SubResource("Shortcut_7l3b5")
+texture_normal = ExtResource("41_q024h")
+texture_pressed = ExtResource("42_l0q2k")
+
+[node name="spacebar" type="TextureButton" parent="." unique_id=1296086848]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 240.0
+offset_right = 544.0
+offset_bottom = 320.0
+shortcut = SubResource("Shortcut_7517w")
+texture_normal = ExtResource("43_i2yym")
+texture_pressed = ExtResource("44_gwl3r")
+
+[node name="f_key" type="TextureButton" parent="." unique_id=577308339]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 80.0
+offset_right = 256.0
+offset_bottom = 160.0
+shortcut = SubResource("Shortcut_m736k")
+texture_normal = ExtResource("45_huyms")
+texture_pressed = ExtResource("46_1tc30")
+
+[node name="g_key" type="TextureButton" parent="." unique_id=410234344]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 160.0
+shortcut = SubResource("Shortcut_43m23")
+texture_normal = ExtResource("47_ihk6n")
+texture_pressed = ExtResource("48_6mbxx")
+
+[node name="h_key" type="TextureButton" parent="." unique_id=923442903]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 80.0
+offset_right = 384.0
+offset_bottom = 162.0
+shortcut = SubResource("Shortcut_qtdes")
+texture_normal = ExtResource("49_ommik")
+texture_pressed = ExtResource("50_1uw3v")
+
+[node name="j_key" type="TextureButton" parent="." unique_id=1610505425]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 80.0
+offset_right = 448.0
+offset_bottom = 162.0
+shortcut = SubResource("Shortcut_1v1bq")
+texture_normal = ExtResource("51_qtn74")
+texture_pressed = ExtResource("52_1rq87")
+
+[node name="k_key" type="TextureButton" parent="." unique_id=126082059]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 80.0
+offset_right = 512.0
+offset_bottom = 162.0
+shortcut = SubResource("Shortcut_2p6kp")
+texture_normal = ExtResource("53_75m1x")
+texture_pressed = ExtResource("54_gv00x")
+
+[node name="l_key" type="TextureButton" parent="." unique_id=398765828]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 80.0
+offset_right = 576.0
+offset_bottom = 162.0
+shortcut = SubResource("Shortcut_ngai3")
+texture_normal = ExtResource("55_mh2n4")
+texture_pressed = ExtResource("56_e6vyk")
+
+[node name="ñ_key" type="TextureButton" parent="." unique_id=1960446530]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 80.0
+offset_right = 640.0
+offset_bottom = 162.0
+shortcut = SubResource("Shortcut_y72k0")
+texture_normal = ExtResource("57_bvyj7")
+texture_pressed = ExtResource("58_ojr68")
+
+[node name="shift_key" type="TextureButton" parent="." unique_id=1021815691]
+layout_mode = 0
+offset_top = 160.0
+offset_right = 64.0
+offset_bottom = 242.0
+shortcut = SubResource("Shortcut_hcqln")
+texture_normal = ExtResource("59_q2qhg")
+texture_pressed = ExtResource("60_tdoko")
+
+[node name="backspace" type="TextureButton" parent="." unique_id=1091865834]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 160.0
+offset_right = 640.0
+offset_bottom = 242.0
+shortcut = SubResource("Shortcut_c8d7r")
+texture_normal = ExtResource("61_po8c0")
+texture_pressed = ExtResource("62_dsnxr")
