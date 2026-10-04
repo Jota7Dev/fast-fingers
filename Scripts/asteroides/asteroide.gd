@@ -2,9 +2,10 @@ extends Area2D
 
 @onready var text_label = $PanelContainer/RichTextLabel
 
-var target_word: String
+var target_word: String = "TESTEANDO"
 var current_index: int = 0
 var is_focused: bool = true
+var fall_speed: float = 150.0
 
 func _ready():
     text_label.bbcode_enabled = true
@@ -34,3 +35,6 @@ func _input(event):
         if current_index < target_word.length():
             current_index += 1
             update_colors()
+
+func _process(delta):
+    position.y += fall_speed * delta
