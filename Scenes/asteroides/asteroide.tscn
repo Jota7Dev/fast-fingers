@@ -43,6 +43,7 @@ theme_override_fonts/bold_font = ExtResource("2_1674l")
 theme_override_fonts/bold_italics_font = ExtResource("2_1674l")
 theme_override_fonts/italics_font = ExtResource("2_1674l")
 theme_override_fonts/mono_font = ExtResource("2_1674l")
+theme_override_font_sizes/normal_font_size = 32
 text = "PALABRA"
 fit_content = true
 scroll_active = false

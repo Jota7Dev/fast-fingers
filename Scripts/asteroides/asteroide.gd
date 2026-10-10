@@ -26,15 +26,18 @@ func update_colors():
         else:
             bbcode_text += "[color=gray]" + remaining_part + "[/color]"
 
-        bbcode_text += "[/center]"
+    bbcode_text += "[/center]"
+    text_label.text = bbcode_text
 
-        text_label.text = bbcode_text
+func process_letter(pressed_key: String):
+    var expected_key = target_word[current_index].to_upper()
+    
+    if pressed_key == expected_key:
+        current_index += 1
+        update_colors()
 
-func _input(event):
-    if event.is_action_pressed("ui_accept"):
-        if current_index < target_word.length():
-            current_index += 1
-            update_colors()
+        if current_index >= target_word.length():
+            queue_free()
 
 func _process(delta):
     position.y += fall_speed * delta

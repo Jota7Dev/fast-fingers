@@ -1,6 +1,25 @@
 [gd_scene format=3 uid="uid://c0tpn1h8ale64"]
 
 [ext_resource type="Script" uid="uid://bebbg2py0p4kk" path="res://Scripts/core/main.gd" id="1_2b5jm"]
+[ext_resource type="PackedScene" uid="uid://dmjyv2x1a5pyl" path="res://Scenes/ui/teclados/tecladodefault_ui.tscn" id="2_qfym1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f6txj"]
+size = Vector2(720, 32)
 
 [node name="Main" type="Node2D" unique_id=986150695]
 script = ExtResource("1_2b5jm")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=939382146]
+
+[node name="TecladoUI" parent="CanvasLayer" unique_id=490153416 instance=ExtResource("2_qfym1")]
+offset_left = 40.0
+offset_top = 960.0
+offset_right = -40.0
+
+[node name="Killzone" type="Area2D" parent="." unique_id=1797055320]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone" unique_id=1131443088]
+position = Vector2(360, 976)
+shape = SubResource("RectangleShape2D_f6txj")
+
+[connection signal="area_entered" from="Killzone" to="." method="_on_killzone_area_entered"]
